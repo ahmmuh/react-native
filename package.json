@@ -1,0 +1,35 @@
+{
+  "name": "code_mill",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/react-native-fontawesome": "^0.1.0",
+    "firebase": "^5.9.2",
+    "react": "16.6.3",
+    "react-native": "^0.59.5",
+    "react-native-firebase": "^5.3.1",
+    "react-native-fontawesome": "^6.0.1",
+    "react-native-gesture-handler": "^1.0.16",
+    "react-native-material-bottom-navigation": "^1.0.2",
+    "react-native-svg": "^9.2.4",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.9.1",
+    "react-navigation-material-bottom-tabs": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "install-peers": "^1.0.3",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.52.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
